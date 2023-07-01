@@ -1,6 +1,6 @@
 
 import './App.css';
-import Post from './post';
+import Post from "./Post";
 import Header from './Header';
 import {Routes,Route} from "react-router-dom";
 
@@ -16,8 +16,11 @@ function App() {
       </main>
       }/>
       <Route path={'./login'}element={
-        <div>login</div>
-      }/>
+        <main>
+          <Header/>
+        <div>login page</div>
+     </main>
+        }/>
      </Routes>
   );
 }

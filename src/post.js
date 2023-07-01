@@ -1,4 +1,4 @@
-export default function post()
+export default function Post()
 {
     return(
         <div className="post">
